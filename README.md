@@ -1,4 +1,14 @@
-to make it work easly I used sqllite these are the steps to install with Laravel v13.11.0
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+To make it work easly I used sqllite these are the steps to install with Laravel v13.11.0
 1- composer install
 make sure the composer install all the requirment 
 it is ok to recreate sqllite again the test will work and other APIS
