@@ -1,12 +1,15 @@
 to make it work easly I used sqllite these are the steps to install with Laravel v13.11.0
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan test
+1- composer install
+make sure the composer install all the requirment 
+it is ok to recreate sqllite again the test will work and other APIS
+2- cp .env.example .env
+3- php artisan key:generate
+make sure to create php key so the test will work and passes all tests to all units
+4- php artisan migrate
+5- php artisan test
 all the requirment are tested the file at /tests/feature/invoiceAPITest (include grocery.json for testing)
 
-php artisan serve
+6- php artisan serve
 
 POST
 http://127.0.0.1:8000/api/invoices/
